@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Autumn Kelley - Digital Works</title>
+    <script src="../scripts/darkMode.js"></script>
+    <script src="../scripts/dropDown.js"></script>
+    <script src="../scripts/lightBox.js"></script>
+    <link id="styleRef" rel="stylesheet" href="../styles/light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navBar">
+        <p>Autumn Kelley</p>
+        <a href="../index.html"><button>Home</button></a>
+        <a href="../pages/aboutMe.html"><button>About Me</button></a>
+        <a href="../pages/contacts.html"><button>Contacts</button></a>
+        <button onclick="myFunction()" class="dropbtn">Gallery ▼</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../pages/dWorks.html">Digital Works</a>
+            <a href="../pages/tWorks.html">Traditional Works</a>
+            <a href="../pages/videos.html">Videos and Animations</a>
+        </div>
+        <button id="mode" onclick="darkMode()">◑</button>
+    </div>
+    <div id="body2">
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(1)"><img class="blur" src="../images/portrait.jpg" width="500" height="500"></button>
+<div class="text">Self Portrait</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(2)"><img class="blur" src="../images/hug.jpg" width="500" height="500"></button>
+     <div class="text">Hug</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(3)"><img class="blur" src="../images/me.jpg" width="500" height="500"></button>
+        <div class="text">Me</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(4)"><img class="blur" src="../images/look.jpg" width="500" height="500"></button>
+     <div class="text">Look</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(5)"><img class="blur" src="../images/shoulder.jpg" width="500"></button>
+    <div class="text">Shoulder</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(6)"><img class="blur" src="../images/cocoa.jpg" width="500"></button>
+        <div class="text">Cocoa</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(7)"><img class="blur" src="../images/defeated.jpg" width="500"></button>
+    <div class="text">Defeated</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(8)"><img class="blur" src="../images/mirror.jpg" width="500"></button>
+    <div class="text">Mirror</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(9)"><img class="blur" src="../images/recline.jpg" width="500"></button>
+    <div class="text">Recline</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(10)"><img class="blur" src="../images/hands.jpg" width="500"></button>
+    <div class="text">Hands</div></div>
+     <div class="wrapper"
+    <button onclick="openModal();currentSlide(11)"><img class="blur" src="../images/model.jpg" width="500"></button>
+    <div class="text">Dome of the Rock</div></div>
+        <div class="wrapper"
+<button onclick="openModal();currentSlide(12)"><img class="blur" src="../images/mobile.jpg" width="500"></button>
+<div class="text">Seasons Mobile</div></div>
+    </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()"> &times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext"> 1 / 12</div>
+                    <img src="../images/portrait.jpg" style="width:100%">
+                    <h1>Portrait</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Full body portrait</p>
+                    <p>For this piece I wanted to draw me flexing, as I have been working to build muscle.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 2 / 12</div>
+                    <img src="../images/hug.jpg" style="width:100%">
+                    <h1>Hug</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Homework</p>
+                    <p>For this piece I wanted to interact with a skeleton, so I wrapped its arms around me for a back hug.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 3 / 12</div>
+                    <img src="../images/me.jpg" style="width:100%">
+                    <h1>Me</h1>
+                    <p><span><b> Medium:</b></span> Charcoal</p>
+                    <p><span><b> Year:</b></span> 2025</p>
+                    <p><span><b> Project:</b></span> Value study</p>
+                    <p> For this piece I drew my face with dramatic lighting from a lamp.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 4 / 12</div>
+                    <img src="../images/look.jpg" style="width:100%">
+                    <h1>Look</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Self-portrait</p>
+                    <p>For this piece I created a self portrait with a mirror.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 5 / 12</div>
+                    <img src="../images/shoulder.jpg" style="width:100%">
+                    <h1>Shoulder</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Cut and paste</p>
+                    <p>For this piece we were tasked with combining at least two art pieces to make a stronger piece together. I chose the two small heads to combine with the large head.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 6 / 12</div>
+                    <img src="../images/cocoa.jpg" style="width:100%">
+                    <h1>Cocoa</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Portrait</p>
+                    <p>For this piece I drew a classmate and friend, Cocoa.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 7 / 12</div>
+                    <img src="../images/defeated.jpg" style="width:100%">
+                    <h1>Defeated</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Classwork</p>
+                    <p>For this piece our model sat, defeated and tired.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 8 / 12</div>
+                    <img src="../images/mirror.jpg" style="width:100%">
+                    <h1>Mirror</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Classwork</p>
+                    <p>For this piece our model sat in front of a mirror.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 9 / 12</div>
+                    <img src="../images/recline.jpg" style="width:100%">
+                    <h1>Recline</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Classwork</p>
+                    <p>For this piece our model reclined on a couch.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 9 / 12</div>
+                    <img src="../images/hands.jpg" style="width:100%">
+                    <h1>Hands</h1>
+                    <p><span><b>Medium:</b></span> Charcoal</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Hand study</p>
+                    <p>For this piece I drew my left hand in a variety of poses.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 11 / 12</div>
+                    <img src="../images/model1.jpg" style="width:100%">
+                    <img src="../images/model.jpg" style="width:50%"><img src="../images/model2.jpg" style="width:50%">
+                    <img src="../images/model3.jpg" style="width:50%"><img src="../images/model4.jpg" style="width:50%">
+                    <h1>Dome of the Rock</h1>
+                    <p><span><b>Medium:</b></span> Chipboard, needle and thread, glue</p>
+                    <p><span><b>Year:</b></span> 2024</p>
+                    <p><span><b>Project:</b></span> Create an abstract respresentational building</p>
+                    <p>
+                        This piece is my 3D abstract representational piece. My architectural theme was Islamic, so I recreated
+                        The Dome of the Rock. For my abstraction, I used a needle and thread to string together my pieces once they were laser cut,
+                        so my building could be pulled apart into its seperate layers.
+                    </p>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"> 12 / 12</div>
+                    <img src="../images/mobile1.jpg" style="width:50.35%"><img src="../images/mobile3.jpg" style="width:49%">
+                    <h1>Seasons Mobile</h1>
+                    <p><span><b>Medium:</b></span> Chipboard, needle and thread, glue, paperclip, spray paint</p>
+                    <p><span><b>Year:</b></span> 2024</p>
+                    <p><span><b>Project:</b></span> Create an  non-respresentational sculpture</p>
+                    <p>This piece is my 3D non-representational piece. I was inspired by hanging baby mobiles and the four seasons, the middle swirling element represents time passing as the seasons rotate around the center.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
+                <a class="next" onclick="plusSlides(1)"> &#10095;</a>
+            </div>
+
+</body>
+</html>

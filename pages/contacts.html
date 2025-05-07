@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Autumn Kelley - Contacts</title>
+    <script src="../scripts/darkMode.js"></script>
+    <script src="../scripts/dropDown.js"></script>
+    <script src="../scripts/submit.js"></script>
+    <link id="styleRef" rel="stylesheet" href="../styles/light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navBar">
+        <p>Autumn Kelley</p>
+        <a href="../index.html"><button>Home</button></a>
+        <a href="../pages/aboutMe.html"><button>About Me</button></a>
+        <button>Contacts</button>
+        <button onclick="myFunction()" class="dropbtn">Gallery ▼</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../pages/dWorks.html">Digital Works</a>
+            <a href="../pages/tWorks.html">Traditional Works</a>
+            <a href="../pages/videos.html">Videos and Animations</a>
+        </div>
+        <button id="mode" onclick="darkMode(); darkMode2()">◑</button>
+    </div>
+    <div id="body">
+        <h1>Contact Me</h1>
+        <form>
+            <div id="n">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name..." />
+            </div>
+            <br />
+            <div id="e">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email Address..." />
+            </div>
+            <br />
+            <div id="m">
+                <label for="message">Message:</label>
+                <textarea id="message" input type="text" row="5" placeholder="Your Message..."></textarea>
+                <br /><br /><br />
+                <button id="contact" type="reset">Reset</button>
+                <button id="contact1" type="button" onclick="submitEntries()">Submit</button>
+                <br /><br /><br />
+            </form>
+    </div>
+        <div id="social">
+            <a href="https://www.instagram.com/kooky_creates/" target="_blank"><button><img src="../images/insta1.png"  link id="social1" rel="insta1" width="100" height="100"></button></a>
+            <a href="https://www.youtube.com/@KookyCreates" rel="yt1" target="_blank"><button><img src="../images/yt1.png" link id="social2" rel="yt1" width="100" height="100"></button></a>
+            <a href="https://www.linkedin.com/in/autumn-kelley-8762a2328/" rel="in1" target="_blank"><button><img src="../images/in1.png" link id="social3" rel="in1" width="100" height="100"></button></a>
+        </div>
+    </div>
+</body>
+</html>

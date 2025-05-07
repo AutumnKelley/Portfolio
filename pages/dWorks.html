@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Autumn Kelley - Digital Works</title>
+    <script src="../scripts/darkMode.js"></script>
+    <script src="../scripts/dropDown.js"></script>
+    <script src="../scripts/lightBox.js"></script>
+    <link id="styleRef" rel="stylesheet" href="../styles/light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navBar">
+        <p>Autumn Kelley</p>
+        <a href="../index.html"><button>Home</button></a>
+        <a href="../pages/aboutMe.html"><button>About Me</button></a>
+        <a href="../pages/contacts.html"><button>Contacts</button></a>
+        <button onclick="myFunction()" class="dropbtn">Gallery ▼</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../pages/dWorks.html">Digital Works</a>
+            <a href="../pages/tWorks.html">Traditional Works</a>
+            <a href="../pages/videos.html">Videos and Animations</a>
+        </div>
+        <button id="mode" onclick="darkMode()">◑</button>
+    </div>
+    <div id="body2">
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(1)"><img class="blur" src="../images/self.jpg" width="500" height="500"></button>
+    <div class="text">Breakfast</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(2)"><img class="blur" src="../images/wicked.png" style="width:110%" width="500" height="500"></button>
+         <div class="text">Wicked</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(3)"><img class="blur" src="../images/ate.png" width="500" height="500"></button>
+         <div class="text">Ate</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(4)"><img class="blur" src="../images/goose.png" width="500" height="500"></button>
+         <div class="text">Gooseberries</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(5)"><img class="blur" src="../images/toast.png" width="500"></button>
+         <div class="text">Toast Pattern</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(6)"><img class="blur" src="../images/fixings.png" width="500"></button>
+         <div class="text">Toast Fixins</div></div>
+        <div class="wrapper"
+        <button onclick="openModal();currentSlide(7)"><img class="blur" src="../images/date.jpeg" width="500"></button>
+         <div class="text">First Date</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(8)"><img class="blur" src="../images/bramble.PNG" width="500"></button>
+     <div class="text">Bramble Character Sheet</div></div>
+        <div class="wrapper"
+    <button onclick="openModal();currentSlide(9)"><img class="blur" src="../images/bramble1.PNG" width="500"></button>
+     <div class="text">Bramble Room</div></div>
+    </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()"> &times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext"> 1 / 9</div>
+                    <img src="../images/self.jpg" style="width:100%">
+                    <h1>Breakfast</h1>
+                    <p><span><b>Medium:</b></span> Adobe Illustrator</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Create a vector self-portrait of you in your "creative space"</p>
+                    <p>This piece was inspired by my creative space, which is eating food. I love the aesthetic of simple, comforting breakfast foods, such as jelly on toast.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 2 / 9</div>
+                    <img src="../images/wicked.png" style="width:110%">
+                    <h1>Wicked</h1>
+                    <p><span><b>Medium:</b></span> Adobe Illustrator</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Create a poster
+                    <p>This piece was inspired by Disney's movie, Wicked. Its focus is on the opening song of the movie, "No One Mourns the Wicked," along with the characters Glinda and Elphaba,
+                    and their relationship as friends.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 3 / 9</div>
+                    <img src="../images/ate.png" style="width:100%">
+                    <h1>Ate</h1>
+                    <p><span><b>Medium:</b></span> Adobe Photoshop</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Create a movie poster
+                    <p>This piece is a play on the word "Ate" and its nowadays slang meaning of excelling at something or performing exceptionally well. The movie premise is that a famous fashion
+                        designer has partnered with a rising model to showcase his latest collection. The catch? The fashion designer is a vampire and his new line up must eat.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"> 4 / 9</div>
+                    <img src="../images/goose.png" style="width:100%">
+                    <h1>Gooseberries</h1>
+                    <p><span><b>Medium:</b></span> Adobe Illustrator</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Create a visual pun</p>
+                    <p>This piece is a play on words of gooseberries, the fruit, and geese as berries.</p>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"> 5 / 9</div>
+                    <img src="../images/toast.png" style="width:100%">
+                    <h1>Toast Pattern</h1>
+                    <p><span><b>Medium:</b></span> Adobe Illustrator</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Create a pattern
+                    <p>This piece is a pattern of things you can put on toast. </p>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"> 6 / 9</div>
+                    <img src="../images/fixings.png" style="width:100%">
+                    <h1>Toast Fixins</h1>
+                    <p><span><b>Medium:</b></span> Adobe Illustrator</p>
+                    <p><span><b>Year:</b></span> 2025</p>
+                    <p><span><b>Project:</b></span> Assets for pattern project
+                    <p>This piece is a collection of toppings you can eat with toast, or as we say in the south, fixins. </p>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"> 7 / 9</div>
+                    <img src="../images/date.jpeg" style="width:100%">
+                    <h1>First Date</h1>
+                    <p><span><b>Medium:</b></span> Clipstudio Paint</p>
+                    <p><span><b>Year:</b></span> 2024</p>
+                    <p><span><b>Project:</b></span> A comic strip gift
+                    <p>This piece is a gift to my partner of our first date.</p>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"> 8 / 9</div>
+                    <img src="../images/bramble.PNG" style="width:100%">
+                    <h1>Bramble Character Sheet</h1>
+                    <p><span><b>Medium:</b></span> Photoshop</p>
+                    <p><span><b>Year:</b></span> 2023</p>
+                    <p><span><b>Project:</b></span> A character sheet"
+                    <p>This is a character sheet for my original character Bramble Thistlethorn, for my animatic "Flowers."</p>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"> 9 / 9</div>
+                    <img src="../images/bramble1.PNG" style="width:100%">
+                    <h1>Bramble Room</h1>
+                    <p><span><b>Medium:</b></span> Photoshop</p>
+                    <p><span><b>Year:</b></span> 2023</p>
+                    <p><span><b>Project:</b></span> A layout sheet"
+                    <p>This is a bedroom layout for my original character Bramble Thistlethorn, for my animatic "Flowers."</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
+                <a class="next" onclick="plusSlides(1)"> &#10095;</a>
+
+
+</body>
+</html>
