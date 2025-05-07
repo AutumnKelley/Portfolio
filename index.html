@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Autumn Kelley - Home</title>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/dropDown.js"></script>
+    <link id="styleRef" rel="stylesheet" href="styles/light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navBar">
+        <p>Autumn Kelley</p>
+        <button>Home</button>
+        <a href="pages/aboutMe.html"><button>About Me</button></a>
+        <a href="pages/contacts.html"><button>Contacts</button></a>
+        <button onclick="myFunction()" class="dropbtn">Gallery ▼</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="pages/dWorks.html">Digital Works</a>
+            <a href="pages/tWorks.html">Traditional Works</a>
+            <a href="pages/videos.html">Videos and Animations</a>
+        </div>
+
+        <button id="mode" onclick="darkMode1()">◑</button>
+    </div>
+    <div id="body">
+        <div id="greetings">
+            <p><b>Greetings!</b> My name is Autumn Kelley.</p>
+            <p>I am an Emerging Media (Pending) major and Environmental Studies minor honors student at UCF.</p>
+        </div>
+        <video width="1280" height="720" poster="images/reel1.png" controls id="myVideo"><source src="videos/reel.mp4" allowfullscreen type="video/mp4">Your browser does not support HTML5 video.</video>
+    </div>
+</body>
+</html>
